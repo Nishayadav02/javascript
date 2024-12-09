@@ -50,10 +50,10 @@
 
 //  '${newDate.getDay()} and the time'
 
-let newDate = new Date();
-newDate.toLocaleString('default' , {
-    weekday: "long"
+// let newDate = new Date();
+// newDate.toLocaleString('default' , {
+//     weekday: "long"
 
-})
-console.log(newDate);
+// })
+// console.log(newDate);
 
