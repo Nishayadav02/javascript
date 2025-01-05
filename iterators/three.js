@@ -25,6 +25,16 @@ map.set('IN', "India")
 
 // console.log(map);
 
+// for (const key of map) {
+//     console.log(key);
+// }
+
+for (const [key] of map) {
+    console.log(key);
+}
+
+//with the help of sqare bracket [] , we can split or distructure the key and value
+
 for (const [key, value] of map) {
     // console.log(key, ':-', value);
 }
@@ -35,6 +45,6 @@ const myObject = {
 }
 
 // for (const [key, value] of myObject) {
-//     console.log(key, ':-', value);
+//     console.log(key, ':-', value);  // not iterable
     
 // }
